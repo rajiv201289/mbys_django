@@ -1,0 +1,286 @@
+{% extends 'home/base.html' %}
+{% load static %}
+
+{% block content %}
+
+<!-- jumbotron start -->
+<div class="container mb-5">
+  <div class="p-5 text-center  rounded-3">
+    <svg class="bi mt-4 mb-3" style="color: var(--bs-indigo);" width="100" height="100"><use xlink:href="#bootstrap"></use></svg>
+    <h1 class="text-body-emphasis">Jumbotron with icon</h1>
+    <p class="col-lg-8 mx-auto fs-5 text-muted">
+      This is a custom jumbotron featuring an SVG image at the top, some longer text that wraps early thanks to a responsive <code>.col-*</code> class, and a customized call to action.
+    </p>
+    <div class="d-inline-flex gap-2 mb-5">
+      <button class="d-inline-flex align-items-center btn btn-primary btn-lg px-4 rounded-pill" type="button">
+        Call to action
+        <svg class="bi ms-2" width="24" height="24"><use xlink:href="#arrow-right-short"></use></svg>
+      </button>
+      <button class="btn btn-outline-secondary btn-lg px-4 rounded-pill" type="button">
+        Secondary link
+      </button>
+    </div>
+  </div>
+</div>
+<!-- jumbotron ends -->
+<div class="container my-5 p-5 bg-body-teritory hero-header">
+  <div class="container">
+      <div class="row g-5  align-items-center">
+          <div class="col-lg-6 text-center text-lg-start">
+              <h1 class="text-dark mb-4 animated zoomIn">We Help To Push Your Business To The Top Level</h1>
+              <p class="text-dark pb-3 animated zoomIn">Tempor rebum no at dolore lorem clita rebum rebum ipsum rebum stet dolor sed justo kasd. Ut dolor sed magna dolor sea diam. Sit diam sit justo amet ipsum vero ipsum clita lorem</p>
+              <a href="" class="btn btn-outline-light rounded-pill border-2 py-3 px-5 animated slideInRight">Learn More</a>
+          </div>
+          <div class="col-lg-6 text-center text-lg-start">
+              <img class="img-fluid animated zoomIn" src="{% static 'home/images/image.jpg' %}" alt="">
+          </div>
+      </div>
+  </div>
+</div>
+
+   <!-- Service Start -->
+   <div class="container-xxl py-6">
+    <div class="container">
+        <div class="mx-auto text-center wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
+            <div class="d-inline-block border rounded-pill text-primary px-4 mb-3">Our Services</div>
+            <h2 class="mb-5">We Provide Solutions On Your Business</h2>
+        </div>
+        <div class="row g-4">
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                <div class="service-item rounded h-100">
+                    <div class="d-flex justify-content-between">
+                        <div class="service-icon">
+                            <i class="fa fa-user-tie fa-2x"></i>
+                        </div>
+                        <a class="service-btn" href="">
+                            <i class="fa fa-link fa-2x"></i>
+                        </a>
+                    </div>
+                    <div class="p-5">
+                        <h5 class="mb-3">Business Research</h5>
+                        <span>Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet lorem.</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                <div class="service-item rounded h-100">
+                    <div class="d-flex justify-content-between">
+                        <div class="service-icon">
+                            <i class="fa fa-chart-pie fa-2x"></i>
+                        </div>
+                        <a class="service-btn" href="">
+                            <i class="fa fa-link fa-2x"></i>
+                        </a>
+                    </div>
+                    <div class="p-5">
+                        <h5 class="mb-3">Stretagic Planning</h5>
+                        <span>Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet lorem.</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.6s">
+                <div class="service-item rounded h-100">
+                    <div class="d-flex justify-content-between">
+                        <div class="service-icon">
+                            <i class="fa fa-chart-line fa-2x"></i>
+                        </div>
+                        <a class="service-btn" href="">
+                            <i class="fa fa-link fa-2x"></i>
+                        </a>
+                    </div>
+                    <div class="p-5">
+                        <h5 class="mb-3">Market Analysis</h5>
+                        <span>Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet lorem.</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                <div class="service-item rounded h-100">
+                    <div class="d-flex justify-content-between">
+                        <div class="service-icon">
+                            <i class="fa fa-chart-area fa-2x"></i>
+                        </div>
+                        <a class="service-btn" href="">
+                            <i class="fa fa-link fa-2x"></i>
+                        </a>
+                    </div>
+                    <div class="p-5">
+                        <h5 class="mb-3">Financial Analaysis</h5>
+                        <span>Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet lorem.</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                <div class="service-item rounded h-100">
+                    <div class="d-flex justify-content-between">
+                        <div class="service-icon">
+                            <i class="fa fa-balance-scale fa-2x"></i>
+                        </div>
+                        <a class="service-btn" href="">
+                            <i class="fa fa-link fa-2x"></i>
+                        </a>
+                    </div>
+                    <div class="p-5">
+                        <h5 class="mb-3">legal Advisory</h5>
+                        <span>Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet lorem.</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.6s">
+                <div class="service-item rounded h-100">
+                    <div class="d-flex justify-content-between">
+                        <div class="service-icon">
+                            <i class="fa fa-house-damage fa-2x"></i>
+                        </div>
+                        <a class="service-btn" href="">
+                            <i class="fa fa-link fa-2x"></i>
+                        </a>
+                    </div>
+                    <div class="p-5">
+                        <h5 class="mb-3">Tax & Insurance</h5>
+                        <span>Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet lorem.</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Service End -->
+
+
+<!-- cards -->
+<div class="container px-4 py-5" id="custom-cards">
+  <h2 class="pb-2 border-bottom">Custom cards</h2>
+
+  <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
+    <div class="col">
+      <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('unsplash-photo-1.jpg');">
+        <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+          <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Short title, long jacket</h3>
+          <ul class="d-flex list-unstyled mt-auto">
+            <li class="me-auto">
+              <img src="https://github.com/twbs.png" alt="Bootstrap" width="32" height="32" class="rounded-circle border border-white">
+            </li>
+            <li class="d-flex align-items-center me-3">
+              <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#geo-fill"></use></svg>
+              <small>Earth</small>
+            </li>
+            <li class="d-flex align-items-center">
+              <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#calendar3"></use></svg>
+              <small>3d</small>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="col">
+      <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('unsplash-photo-2.jpg');">
+        <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+          <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Much longer title that wraps to multiple lines</h3>
+          <ul class="d-flex list-unstyled mt-auto">
+            <li class="me-auto">
+              <img src="https://github.com/twbs.png" alt="Bootstrap" width="32" height="32" class="rounded-circle border border-white">
+            </li>
+            <li class="d-flex align-items-center me-3">
+              <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#geo-fill"></use></svg>
+              <small>Pakistan</small>
+            </li>
+            <li class="d-flex align-items-center">
+              <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#calendar3"></use></svg>
+              <small>4d</small>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="col">
+      <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('unsplash-photo-3.jpg');">
+        <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
+          <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Another longer title belongs here</h3>
+          <ul class="d-flex list-unstyled mt-auto">
+            <li class="me-auto">
+              <img src="https://github.com/twbs.png" alt="Bootstrap" width="32" height="32" class="rounded-circle border border-white">
+            </li>
+            <li class="d-flex align-items-center me-3">
+              <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#geo-fill"></use></svg>
+              <small>California</small>
+            </li>
+            <li class="d-flex align-items-center">
+              <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#calendar3"></use></svg>
+              <small>5d</small>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- cards ends-->
+        <!-- About Start -->
+        <div class="container-xxl py-6">
+          <div class="container">
+              <div class="row g-5 align-items-center">
+                  <div class="col-lg-6 wow zoomIn" data-wow-delay="0.1s">
+                      <img class="img-fluid" src="{% static 'home/images/image.jpg' %}">
+                  </div>
+                  <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                      <div class="d-inline-block border rounded-pill text-primary px-4 mb-3">About Us</div>
+                      <h2 class="mb-4">Award Wining Consultancy Agency For Your Business</h2>
+                      <p class="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum et tempor sit. Aliqu diam amet diam et eos labore. Clita erat ipsum et lorem et sit, sed stet no labore lorem sit. Sanctus clita duo justo et tempor eirmod</p>
+                      <div class="row g-3 mb-4">
+                          <div class="col-12 d-flex">
+                              <div class="flex-shrink-0 btn-lg-square rounded-circle bg-primary">
+                                  <i class="fa fa-user-tie text-white"></i>
+                              </div>
+                              <div class="ms-4">
+                                  <h6>Business Planning</h6>
+                                  <span>Tempor erat elitr rebum at clita. Diam dolor ipsum amet eos erat ipsum lorem et sit sed stet lorem sit clita duo</span>
+                              </div>
+                          </div>
+                          <div class="col-12 d-flex">
+                              <div class="flex-shrink-0 btn-lg-square rounded-circle bg-primary">
+                                  <i class="fa fa-chart-line text-white"></i>
+                              </div>
+                              <div class="ms-4">
+                                  <h6>Financial Analaysis</h6>
+                                  <span>Tempor erat elitr rebum at clita. Diam dolor ipsum amet eos erat ipsum lorem et sit sed stet lorem sit clita duo</span>
+                              </div>
+                          </div>
+                      </div>
+                      <a class="btn btn-primary rounded-pill py-3 px-5 mt-2" href="">Read More</a>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <!-- About End -->
+
+
+
+
+
+<div class="px-4 py-5 my-5 hero text-center">
+    <img class="d-block mx-auto mb-4" src="{% static 'home/images/image.jpg' %}" alt="" width="72" height="57">
+    <h1 class="display-5 fw-bold lead  ">Start Business</h1>
+    <div class="col-lg-6 mx-auto">
+      <p class="lead  mb-4">Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular front-end open source toolkit, featuring Sass variables and mixins</p>
+      <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+        <button type="button" class="btn btn-primary btn-lg px-4 gap-3">Primary button</button>
+        <button type="button" class="btn btn-outline-secondary btn-lg px-4">Secondary</button>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+<!-- <h1>rajiv</h1>
+<img src="{% static 'home/images/image.jpg' %}" height="200" width="200" alt="My image"> -->
+
+
+
+
+{% endblock content %}

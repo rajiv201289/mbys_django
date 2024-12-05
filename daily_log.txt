@@ -1,0 +1,7 @@
+nov 24 ,22:46
+strted the project mbys 
+started the apps home and accounts
+included both the apps in the instslled apps in settings.py
+mapped urls from project to the home apps
+mapped home.urls to the views.py
+defined index function in views.py
