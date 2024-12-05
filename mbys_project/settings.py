@@ -76,7 +76,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'mbys.wsgi.application'
+WSGI_APPLICATION = 'mbys_project.wsgi.application'
 
 
 # Database
