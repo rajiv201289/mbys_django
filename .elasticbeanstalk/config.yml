@@ -1,10 +1,12 @@
 branch-defaults:
   master:
-    environment: django-env
-    group_suffix: null
+    environment: Myproject-env
+environment-defaults:
+  Myproject-env:
+    branch: null
+    repository: null
 global:
-  application_name: mbys
-  branch: null
+  application_name: my_project
   default_ec2_keyname: aws-eb
   default_platform: Python 3.12 running on 64bit Amazon Linux 2023
   default_region: eu-north-1
@@ -13,6 +15,5 @@ global:
   platform_name: null
   platform_version: null
   profile: eb-cli
-  repository: null
   sc: git
   workspace_type: Application
