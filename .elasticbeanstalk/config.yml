@@ -1,7 +1,11 @@
 branch-defaults:
   master:
-    environment: null
+    environment: Mbys-env
     group_suffix: null
+environment-defaults:
+  Mbys-env:
+    branch: null
+    repository: null
 global:
   application_name: mbys
   branch: null

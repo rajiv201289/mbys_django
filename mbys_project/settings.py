@@ -28,6 +28,9 @@ DEBUG = False
 ALLOWED_HOSTS = ['mbys.eu-north-1.elasticbeanstalk.com']
 
 # Defining static files
+
+STATIC_ROOT = BASE_DIR / 'staticfiles'
+
 STATIC_URL="static/"
 
 
@@ -50,6 +53,7 @@ INSTALLED_APPS = [
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
+    'whitenoise.middleware.WhiteNoiseMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
