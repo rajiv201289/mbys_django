@@ -29,7 +29,7 @@ ALLOWED_HOSTS = ['127.0.0.1','localhost','mbys.eu-north-1.elasticbeanstalk.com']
 
 # Defining static files
 
-STATIC_ROOT = BASE_DIR / 'staticfiles'
+STATIC_ROOT = BASE_DIR / 'static'
 
 STATIC_URL="static/"
 
