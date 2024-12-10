@@ -1,8 +1,8 @@
 branch-defaults:
   master:
-    environment: Mbys-env
+    environment: dj-env
 environment-defaults:
-  Mbys-env:
+  dj-env:
     branch: null
     repository: null
 global:
