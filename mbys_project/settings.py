@@ -23,9 +23,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-((#)y!-@p5xj(^z7z5g=4nnci_383cmz%=i%r2n*x0b1ltsf_!'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
-ALLOWED_HOSTS = ['mbys.eu-north-1.elasticbeanstalk.com']
+ALLOWED_HOSTS = ['127.0.0.1','localhost','mbys.eu-north-1.elasticbeanstalk.com']
 
 # Defining static files
 
